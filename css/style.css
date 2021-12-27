@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+   
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: black;}
+body { 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    line-height: 26px; color: black;
+}
+.top{background:rgba(0, 0, 0, 0.3); position: absolute;top:0; left: 0; width: 100%; height: 100px;}
+.top_inner{ width: 1400px; margin: 0 auto;  position: relative;}
+.logo{float: left; padding-top: 10px;}
+.nav{position: absolute; left: 50%; top: 0;  margin-left: -347px;}
+
+.nav li{float: left;}
+.nav li a:hover{color: #ccc;}
+.nav a{font-weight: bold; color: #fff; font-size: 25px; display: block; padding: 35px 75px;}
+.bg{background: url(../images/Untitled-2.jpg) no-repeat center top; height: 1017px;  margin: auto; text-align: center;}
+.bg .j1{ color: #fff; font-size: 65px; font-weight: bold; text-align: center;   height: 20px;  padding-top: 188px; line-height: 119px;}
+.coffee{background: url(../images/COFFEE.jpg)no-repeat center top; height: 602px; }
+.coffee_in{width: 1320px; margin: auto;}
+.coffee_left{width: 600px; text-align: center;}
+.frach{ font-family: 'yg-jalnan'; color: #38220c; font-weight: bold;font-size:  50px; padding: 100px  0 80px; }
+.j2{color: #a96634;  font-size: 52px;  line-height: 70px; font-weight: bold; }
+
+.menu1 a{display: inline-block; padding: 10px 30px; border: 1px solid #38220c;
+    color: #38220c; font-size: 45px; line-height: 55px; margin: 40px 110px;} 
+.menu1 a:hover{background:  #38220c; color: white;}
+.yellow{background: url(../images/Untitled-12.jpg) no-repeat center top;  width: 100%; height: 766px; margin: auto;}
+.orange{color:orangered;   font-family: 'yg-jalnan'; font-size: 60px; line-height: 80px; text-align: center;  padding-top: 150px; padding-right: 50%;}
+.sm1{ position: absolute;  right: 0;  top: 105px;}
+.sm{position: absolute; right: 350px; top:105px; }
+.blue{  position: relative; left: 55px; top: 90px;}
+.berry{position: relative;  left: 130px; top: 90px;}
+.yellow_in{margin: auto; width: 1320px; position: relative; }
+.pink{background: url(../images/pink.jpg) no-repeat center top; height: 659px; width: 100%; }
+h2{color: palevioletred;  font-size: 66px; font-weight: bold;
+text-align: center; font-family: 'yg-jalnan'; padding-top: 50px;}
+.menu{width: 1320px; margin: auto; }
+
+.m1{font-size: 20px; margin-bottom:  50px;}
+.m1 p{font-size: 20px; padding-top:30px ;}
+.m1 li {float: left; width: 25%; text-align: center; margin-top: 50px; transition: all 1s;}
+.m1 li:hover{transform: translateY(-10px);}
+.brown{background: url(../images/Untitled-3.jpg) no-repeat center top; width: 100%;  }
+.pc{width: 1320px; height: 495px; margin: auto;}
+.brown h1{background-color: #533627; width: 530px; color: #fff; padding: 20px;  margin: 100px auto 40px;  font-weight: bold;}
+.brown p{color: #fff; font-size:50px;  line-height: 80px;padding-bottom: 70px; text-align: center; }
+.right{width: 900px;float: right; text-align: center;}
+.you{font-size: 30px; font-weight: bold;}
+.m1 .pc{padding-bottom: 20px 50px 0 0; }
+.cup{ background: #d4c8ac; width: 520px; height: 500px; float: left; padding: 50px;}
+.cup a{display: block; width: 100%;height: 100%; }
+.md{color: #fff; font-size: 60px;  
+padding-bottom: 45px; text-align: center; line-height: 40px;}
+.md1{font-size: 40px; color: #fff; text-align: center; margin: auto; line-height: 45px;} 
+.md2{ font-size: 30px; color: #fff; text-align: center; margin: 20px 0 45px; }
+.img{ position: relative; right: -110px; float: left;}
+.box{width: 520px; height: 500px; float: right; background-color: #425eb6; padding: 50px;} 
+.blue2{color: #fff; font-size: 38px; line-height: 50px; font-family: 'Noto Sans KR'; padding-top: 150px;}
+
+.cs{width: 1320px; margin: 120px auto; height: 600px;}
+h5{font-family: 'Noto Sans KR'; color: #fff;  font-size: 38px;}
+#search{background: url(../images/find.png)no-repeat right  center #fff; width: 100%; padding: 20px 10px; font-size: 20px;}
+form{margin-top: 50px;}
+.n1{width: 1320px; margin: auto; }
+.open{background: url(../images/open.jpg) no-repeat center top;  height: 592px;
+margin: auto; }
+ .n2{float: right; width: 700px; line-height: 60px;}
+ .co{font-family:'Noto Sans KR'; font-weight: bold; font-size: 31px; 
+    padding-top: 30px; text-align: center;}
+    .brand{font-weight: bold; font-size: 65px; color: #a76918; text-align: center;margin-top: 50px;}
+    .text{   font-size: 23px; padding-top: 100px;  text-align: center; 
+    font-family: 'Noto Sans CJ...';  }
+    .footer{width: 100%; height: 250px; background-color: #ccc;
+    margin: auto; }
+    .footer_inner{   width: 1220px; margin: auto;   font-size: 15px; padding-top: 30px; }
+    .text1 li{float: left; padding-right:24px ; margin-right: 30px; }
+    .footer_inner li a{color: #fff;}
+    .tel{color: #fff; font-size: 18px; clear: both; padding-top: 20px; font-family:'Noto Sans KR';}
+    .text1 li a:hover{color:maroon;}
+    .sns{float: right;}
+    .sns li{opacity: 0.5; float: left; padding-left: 20px;}
+    .sns li:hover{opacity: 1;}
+br{color: rgba(0, 0, 0, 0);}
